@@ -209,7 +209,7 @@ footer ul img {
   width: 20px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1050px) {
   .skills-container ul li .icon-container img {
     width: 80px;
     height: 80px;
