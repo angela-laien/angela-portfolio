@@ -100,6 +100,15 @@ section {
   border-radius: 1em;
 }
 
+.featured a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.featured a:hover {
+  font-weight: 500;
+}
+
 .featured::before {
   content: "";
   position: absolute;
@@ -136,6 +145,15 @@ section {
   font-weight: 500;
 }
 
+.featured-desc a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.featured-desc a:hover {
+  font-weight: 700;
+}
+
 .skills {
   background: #800000;
 }
@@ -170,6 +188,16 @@ section {
 .portfolio-container a img {
   border-radius: 1em;
   margin-bottom: 2em;
+}
+
+.portfolio-container a:hover span.overlay {
+  display: table;
+}
+
+.portfolio-container a:hover span.overlay span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .b-color {
@@ -211,8 +239,8 @@ footer ul img {
 
 @media only screen and (max-width: 1050px) {
   .skills-container ul li .icon-container img {
-    width: 80px;
-    height: 80px;
+    width: 68px;
+    height: 68px;
   }
 }
 

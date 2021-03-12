@@ -87,6 +87,14 @@ section {
     img {
         border-radius: 1em;
     }
+
+    a {
+        text-decoration: none;
+        color: #252525;
+    }
+    a:hover {
+        font-weight: 500;
+    }
 }
 
 .featured::before {
@@ -123,6 +131,13 @@ section {
     font-size: .9em;
     line-height: 1.8em;
     font-weight: 500;
+    a {
+        text-decoration: none;
+        color: #252525;
+    }
+    a:hover {
+        font-weight: 700;
+    }
 }
 
 .skills {
@@ -156,6 +171,10 @@ section {
 .portfolio-container a img {
     border-radius: 1em;
     margin-bottom: 2em;
+}
+
+.portfolio-container a img:hover {
+    width: 70%;
 }
 
 .b-color {
@@ -194,8 +213,8 @@ footer {
     .skills-container ul li {
         .icon-container {
             img {
-                width: 80px;
-                height: 80px;
+                width: 68px;
+                height: 68px;
             }
         }
     }
