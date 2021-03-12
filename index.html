@@ -15,9 +15,9 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">My Work</a></li>
-                    <li><a href="#">My Skills</a></li>
-                    <li><a href="#">Hire me</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Resume</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,20 +32,21 @@
 
     <div class="hero">
         <div class="content">
-            <h1>Beautifully Crafted Web Experiences</h1>
-            <div class="meet">
+            <h1 class="stagger1">Beautifully Crafted Web Experiences</h1>
+            <div class="meet stagger1">
                 <span>👇</span>
                 <p>Meet Angela Laien Xie</p>
             </div>
+            
             <svg class="scroll stagger1" width="40" height="77" viewBox="0 0 40 77">
                 <g id="scroll" transform="translate(-253 -787)">
-                  <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none" stroke="#fff" stroke-width="4">
+                    <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none" stroke="#fff" stroke-width="4">
                     <rect width="40" height="77" rx="20" stroke="none"/>
                     <rect x="2" y="2" width="36" height="73" rx="18" fill="none"/>
-                  </g>
-                  <circle class="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11" transform="translate(262 798)" fill="#fff"/>
+                    </g>
+                    <circle class="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11" transform="translate(262 798)" fill="#fff"/>
                 </g>
-            </svg>
+            </svg>   
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" class="hero-design" width="686" height="688" viewBox="0 0 686 688">
             <g id="blockdesign" transform="translate(-935 -289)">
@@ -60,10 +61,179 @@
             </g>
           </svg>
     </div>
+
     <section class='featured'>
         <div class="left">
-            <div class="inner"></div>
+            <div class="inner transition2">
+                <p class="subtitle">Featured Project</p>
+                <a href="#" class="featured-title">UI Wizard.com Redesign</a>
+
+                <br class="featured-desc">
+                    Affordable UX design services for business</br>
+                    Utilized: Figma, Iconify, Lorem ipsum, Unsplash
+                </p>
+            </div>
+        </div>
+        <img class="right transition2" src="images/figma1st.png" alt="UI-Wizard.com Featured Project">
+    </section>
+
+    <section class="skills">
+        <div class="skills-container">
+            <ul>
+                <li class="transition2">
+                    <p class="skill-title">UX/UI Design</p>
+                    <div class="icon-container">
+                        <img src="images/ux.png" alt="UX">
+                        <img src="images/InnovativeDesign.png" alt="Innovative Design">
+                    </div>
+                    <div class="icon-container">
+                        <img src="images/figma.png" alt="Figma">
+                        <img src="images/adobeXD.png" alt="Adobe XD">
+                    </div>
+                </li>
+                <li class="transition2">
+                    <p class="skill-title">Frontend Development</p>
+                    <div class="icon-container">
+                        <img src="images/html5.png" alt="HTML5">
+                        <img src="images/css.png" alt="CSS3">
+                    </div>
+                    <div class="icon-container">
+                        <img src="images/javascript.png" alt="JavaScript">
+                        <img src="images/react.png" alt="REACT">
+                    </div>
+                </li>
+                <li class="transition2">
+                    <p class="skill-title">Backend Development</p>
+                    <div class="icon-container">
+                        <img src="images/nodejs.png" alt="Node">
+                        <img src="images/mongo.png" alt="Mongo DB">
+                    </div>
+                    <div class="icon-container">
+                        <img src="images/python-file.png" alt="Python">
+                        <img src="images/sql.png" alt="SQL">
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
+
+    <section class="portfolio">
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">Recipe App</p>
+                    <p class="featured-title">FreeStyle Kitchen</p>
+                    <ul class="featured-desc">
+                        <li>https://www.freestylekitchen.club/.</li>
+                        <li>An e-cookbook featuring creative recipes in React, Node, SQL, AWS Amplify, HTML, CSS.</li>
+                        <li>Frontend: github.com/angela-laien/CookWithLove-fe.</li>
+                        <li>Backend: github.com/angela-laien/InstaCook.</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#"><img src="images/FreeStyleKitchen.png" alt="Free Style Kitchen"></a>
+        </div>
+
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">Retro Game</p>
+                    <p class="featured-title">Game of Life</p>
+                    <ul class="featured-desc">
+                        <li>https://game-of-life-sable.vercel.app/.</li>
+                        <li>A vintage cellular automation zero player game in React, HTML5, CSS3.</li>
+                        <li>https://github.com/angela-laien/Game_of_Life</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#"><img src="images/GameOfLife.png" alt="Game of Life"></a>
+        </div>
+
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">Clothing App</p>
+                    <p class="featured-title">Shopangela Closet</p>
+                    <ul class="featured-desc">
+                        <li>A full e-commerce for selling clothes online in HTML5, CSS3, React, and Node.</li>
+                        <li>https://github.com/angela-laien/shop1</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#"><img src="images/ShopAngela.png" alt="ShopAngela Closet"></a>
+        </div>
+    </section>
+
+    <div class="b-color">
+        <div class="avatar">
+            <img src="images/Avatar.png" alt="Avatar">
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="#"><img src="images/linkedin.png" alt="linkedin"></a></li>
+            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="images/github.png" alt="github"></a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        var tl = gsap.timeline();
+
+        tl.from('.content', {
+            y: '-30%',
+            opacity: 0,
+            duration: 2,
+            ease: Power4.easeOut
+        })
+        tl.from('.stagger1', {
+            opacity: 0,
+            y: -50,
+            stagger: .3,
+            ease: Power4.easeOut,
+            duration: 2
+        }, "-=1.5")
+        tl.from('.hero-design', {
+            opacity:0,
+            y: 50,
+            ease: Power4.easeOut,
+            duration: 1
+        }, "-=2")
+
+        gsap.from(".square-anim", {
+            stagger: .2,
+            scale: 0.1,
+            duration: 1,
+            ease: Back.easeOut.config(1.7)
+        })
+
+        gsap.from(".transition2", {
+            ScrollTrigger: {
+                trigger: '.transition2',
+                start: "top bottom"
+            },
+            y: 50,
+            opacity: 0,
+            duration: 1.2,
+            stagger: .3
+        })
+
+        gsap.from(".transition3", {
+            ScrollTrigger: {
+                trigger: '.transition3',
+                start: "top center"
+            },
+            y: 50,
+            opacity: 0,
+            duration: 1.2,
+            stagger: .6
+        })
+    </script>
+
 </body>
 </html>
