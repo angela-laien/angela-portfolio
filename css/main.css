@@ -188,16 +188,13 @@ section {
 .portfolio-container a img {
   border-radius: 1em;
   margin-bottom: 2em;
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 
-.portfolio-container a:hover span.overlay {
-  display: table;
-}
-
-.portfolio-container a:hover span.overlay span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+.portfolio-container a img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 .b-color {

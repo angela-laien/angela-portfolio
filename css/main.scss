@@ -171,10 +171,13 @@ section {
 .portfolio-container a img {
     border-radius: 1em;
     margin-bottom: 2em;
+    opacity: 1;
+    filter: alpha(opacity=100)
 }
 
 .portfolio-container a img:hover {
-    width: 70%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .b-color {
