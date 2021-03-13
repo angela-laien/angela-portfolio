@@ -27,6 +27,10 @@ img {
   color: #800000;
 }
 
+.nav-container a:hover {
+  font-weight: bold;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
